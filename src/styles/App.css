@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.main {
+  position: relative;
+  max-width: 2560px;
+  margin: 0 auto;
+  padding-top: 44px; }
+
+#globalnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  font-size: 1.7rem;
+  background: rgba(0, 0, 0, 0.8); }
+
+.globalnav-content {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  position: inherit; }
