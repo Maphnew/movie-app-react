@@ -75,12 +75,6 @@ body {
   100% {
     background-position: 208px; } }
 
-.main {
-  margin: 0 auto;
-  padding-top: 44px;
-  display: flex;
-  flex-wrap: wrap; }
-
 .header {
   position: absolute;
   top: 0;
@@ -99,3 +93,9 @@ body {
     color: #f5f5f7;
     text-align: center;
     line-height: 4.4rem; }
+
+.main {
+  margin: 0 auto;
+  padding-top: 44px;
+  display: flex;
+  flex-wrap: wrap; }
