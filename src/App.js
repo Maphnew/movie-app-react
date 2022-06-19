@@ -1,11 +1,10 @@
 import "./styles/App.css";
+import Header from "./components/header";
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <p className="header__title">MOVIE APP</p>
-      </header>
+      <Header />
       <main className="main"></main>
       <footer className="footer"></footer>
     </div>
