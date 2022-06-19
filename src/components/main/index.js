@@ -1,16 +1,8 @@
-import { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
-const Main = () => {
-  const [movies, setMovies] = useState([]);
-  useEffect(() => {
-    const fetchMovies = async () => {
-      const url = "https://swapi.dev/api/films";
-      const data = await fetch(url).then((res) => res.json());
-      setMovies(data.results);
-    };
-    fetchMovies();
-  }, []);
+const Main = ({ data }) => {
+  const movies = data.read();
+  console.log(movies, data);
   return (
     <main className="main">
       {movies.map((movie) => {
