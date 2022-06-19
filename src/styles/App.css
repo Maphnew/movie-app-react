@@ -11,6 +11,15 @@ html {
 body {
   box-sizing: border-box; }
 
+.movie-card {
+  height: 200px;
+  width: 250px;
+  max-width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
 body {
   margin: 0; }
 
@@ -68,7 +77,9 @@ body {
 
 .main {
   margin: 0 auto;
-  padding-top: 44px; }
+  padding-top: 44px;
+  display: flex;
+  flex-wrap: wrap; }
 
 .header {
   position: absolute;

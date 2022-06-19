@@ -1,8 +1,7 @@
 import MovieCard from "./MovieCard";
 
-const Main = ({ data }) => {
-  const movies = data.read();
-  console.log(movies, data);
+const Main = ({ resource }) => {
+  const movies = resource.read();
   return (
     <main className="main">
       {movies.map((movie) => {
